@@ -1,0 +1,15 @@
+.jlogo {
+    width: 100px;
+}
+
+#jheader {
+    background-color: #dddddd;
+    min-height: 40vh;
+}
+
+.jinput {
+    outline: none ;
+    box-shadow: none !important;
+    border: none;
+}
+
