@@ -13,3 +13,22 @@
     border: none;
 }
 
+.jcartegory {
+    text-decoration: none;
+}
+
+.jcartegory .card {
+    height: 80px;
+    overflow: hidden;
+}
+
+.jcartegory .card:hover {
+    color: #fff;
+    background-color: #372aee;
+}
+
+@media screen and (max-width: 768px) {
+    .jcartegory {
+        margin-top: 10px;
+    }
+}
