@@ -10,6 +10,18 @@ body {
     background-color: #372aee;
 }
 
+.jbutton {
+    border: #372aee solid 1px;
+    background-color: #fff !important;
+    color: #372aee !important;
+    font-weight: bold;
+}
+
+.jbutton:hover {
+    background-color: #372aee !important;
+    color: #fff !important;
+}
+
 .jlogo {
     width: 100px;
 }
