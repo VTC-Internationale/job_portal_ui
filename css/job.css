@@ -1,3 +1,15 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.jp-color {
+    color: #372aee;
+}
+
+.jp-bg-color {
+    background-color: #372aee;
+}
+
 .jlogo {
     width: 100px;
 }
@@ -25,6 +37,50 @@
 .jcartegory .card:hover {
     color: #fff;
     background-color: #372aee;
+}
+
+footer {
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li::before {
+    content: "\00BB";
+    margin-right: 10px;
+}
+
+.jfooter_cat_header {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+
+.jfooter_cat_ul_li {
+    margin-bottom: 10px;
+}
+
+.jfooter_cat_ul_li::before {
+    list-style-type: none !important;
+    content: none !important;
+}
+
+.jfooter_cat_ul  li:hover {
+    color: #372aee;
+}
+
+.jfooter_email {
+    font-size: 0.8rem;
 }
 
 @media screen and (max-width: 768px) {
