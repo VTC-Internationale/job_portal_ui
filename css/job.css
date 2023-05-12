@@ -25,6 +25,19 @@ body {
     border: none;
 }
 
+.jsearch_box {
+    border-radius: 10px;
+}
+
+.jsearch_box i {
+    color: #372aee;
+}
+
+.jrow {
+    display: flex;
+    align-items: center;
+}
+
 .jcartegory {
     text-decoration: none;
 }
