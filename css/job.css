@@ -3,24 +3,24 @@ body {
 }
 
 .jp-color {
-    color: #372aee;
+    color: #0066cc;
 }
 
 .jp-bg-color {
-    background-color: #372aee;
+    background-color: #0066cc;
 }
 
 .jbutton {
-    border: #372aee solid 1px;
+    border: #0066cc solid 1px;
     background-color: #fff !important;
-    color: #372aee !important;
+    color: #0066cc !important;
     font-weight: bold;
     transition: background-color 0.5s;
     transition: color 0.5s;
 }
 
 .jbutton:hover {
-    background-color: #372aee !important;
+    background-color: #0066cc !important;
     color: #fff !important;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .jsearch_box i {
-    color: #372aee;
+    color: #0066cc;
 }
 
 .jrow {
@@ -63,7 +63,7 @@ body {
 
 .jcartegory .card:hover {
     color: #fff;
-    background-color: #372aee;
+    background-color: #0066cc;
 }
 
 .jcard-title {
@@ -107,7 +107,7 @@ footer ul li::before {
 }
 
 .jfooter_cat_ul  li:hover {
-    color: #372aee;
+    color: #0066cc;
 }
 
 .jfooter_email {
