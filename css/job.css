@@ -47,6 +47,18 @@ body {
     color: #0066cc;
 }
 
+.jcole-10 {
+    width: 100%;
+}
+
+.jselect {
+    width: 100%;
+    outline: none ;
+    box-shadow: none !important;
+    border: none;
+    border-left: 1px solid #0066cc;
+}
+
 .jrow {
     display: flex;
     align-items: center;
