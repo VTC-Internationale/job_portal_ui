@@ -32,7 +32,10 @@ body {
     background-color: #dddddd;
     min-height: 40vh;
     color: #fff !important;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/header.png');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7) ), url('../images/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
 .jinput {
