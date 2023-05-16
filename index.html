@@ -25,18 +25,29 @@
         <li class="me-2">
           <a href="#"><i class="fa-brands fa-instagram"></i></a>
         </li>
-        <li class="dropdown">
-          <div class="d-flex align-items-center pointer small">
-            <div class="mx-2">
-              <span class="flag_header">
-                <img src="/images/usa.png" alt="">
-              </span>
-              <span>EN</span>
+        <li id="languageSwitcher" class="d-flex align-items-center cursor-pointer">
+          <div class="">
+            <div class="d-flex align-items-center small">
+              <div class="mx-2">
+                <span class="flag_header">
+                  <img src="/images/usa.png" alt="">
+                </span>
+                <span>EN</span>
+              </div>
+            </div>
+  
+            <div id="hiddenLanguage" class="d-flex align-items-center pointer small d-none">
+              <div class="mx-2">
+                <span class="flag_header">
+                  <img src="/images/france.png" alt="">
+                </span>
+                <span>FR</span>
+              </div>
             </div>
           </div>
+          <span id="languageSwitcherIcon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg></span>
         </li>
         </div>
-        
       </ul>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
@@ -333,5 +344,14 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+        $('#languageSwitcherIcon').click(function(){
+          $('#languageSwitcher').children().find('#hiddenLanguage').toggleClass('d-none');
+        }
+        );
+      });
+    </script>
   </body>
 </html>
