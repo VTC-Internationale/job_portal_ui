@@ -40,6 +40,10 @@ body {
     align-items: center;
 }
 
+.flag_header img {
+    width: 1rem;
+}
+
 .jinput {
     outline: none ;
     box-shadow: none !important;
