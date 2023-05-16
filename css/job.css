@@ -29,7 +29,7 @@ body {
 }
 
 .jlogo {
-    width: 100px;
+    width: 6.25rem;
 }
 
 #jheader {
@@ -44,8 +44,32 @@ body {
     align-items: center;
 }
 
+.jnavitem {
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.jnavitem a:hover {
+    color: #0066cc !important
+}
+
 .flag_header img {
     width: 1rem;
+}
+
+.jbutton-cta {
+    text-decoration: none;
+    background-color: #0066cc;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 2%;
+    transition: all 0.2s;
+}
+
+.jbutton-cta:hover {
+    background-color: #ffffff;
+    color: #0066cc;
 }
 
 .jinput {
