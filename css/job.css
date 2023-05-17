@@ -292,6 +292,17 @@ footer ul li::before {
     color: #6c83a2;
 }
 
+.partners .partners-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners img {
+    width: 10rem;
+    border-radius: 50%;
+}
+
 
 @media screen and (max-width: 768px) {
     .jcartegory {
