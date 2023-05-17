@@ -303,6 +303,10 @@ footer ul li::before {
     border-radius: 50%;
 }
 
+.jnewsletter form {
+    width: 60%;
+}
+
 
 @media screen and (max-width: 768px) {
     .jcartegory {
