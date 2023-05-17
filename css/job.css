@@ -98,6 +98,62 @@ body {
     border-left: 1px solid #0066cc;
 }
 
+.bg-cc {
+    background-color: #ccc;
+    padding: 1rem ;
+}
+
+.jobSearchBox {
+    display: flex;
+    background-color: #fff; 
+}
+
+.jobSearch {
+    flex: 1;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobSearch .jsearch {
+    flex: 1;
+}
+
+.jitem {
+    border-right: 2px solid #0066cc;
+    display: flex;
+    align-items: center;
+}
+
+.jsearch_icon {
+    color: #0066cc;
+}
+
+.jobSearch .jsearch input {
+    width: 90%;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+    padding: 1rem;
+}
+
+.jobSearch .jsearch select {
+    width: 90%;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+    padding: 1rem;
+}
+
+.jobSearch_button {
+    background-color: #0066cc;
+    color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    transition: all 0.2s;
+}
+
 .jrow {
     display: flex;
     align-items: center;
